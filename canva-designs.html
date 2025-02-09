@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="This is a personal portfolio html template made by AyushSarfare">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canva Designs by Ayush</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.ico" type="image">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/canva.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="fetch" href="https://lottie.host/e0fb5af1-f514-4352-8d6b-f8c6a24383b1/6fA17K0cOX.lottie" type="application/json" crossorigin="anonymous">
+
+</head>
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img
+          src="./assets/images/logo-dark.svg"
+          width="64"
+          height="24"
+          alt="AyushCreates"
+        />
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo-dark.svg" width="64" height="24" alt="Julia home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="canva-designs.html" class="navbar-link">Canva</a>
+          </li>
+
+          <li>
+            <a href="resume.html" class="navbar-link" target="_blank"
+              >Resume</a
+            >
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/ayushsarfare/" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:ayushsarfare2811@gmail.com" class="contact-link"
+            >ayushsarfare2811@gmail.com</a
+          >
+
+          <a href="tel:9326320535" class="contact-link">+91 9326320535</a>
+        </div>
+
+        <ul class="social-list">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ayushsarfare/"
+              class="social-link"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/AyushSarfare" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+  <main>
+    <article>
+
+  <!-- Canva Designs Section -->
+  <section id="home" class="section title" aria-label="canva-designs">
+    <div class="container">
+
+        <div class="title-banner"data-reveal="top"
+        data-reveal-delay="0.5s">
+            <div id="lottie-canva"></div>
+            <div class="title-banner">
+                <dotlottie-player 
+                    src="https://lottie.host/db89ecb1-daf2-4a96-af0b-510c0d64217c/ONMKVuYJ5S.lottie" 
+                    background="transparent" 
+                    speed="1" 
+                    loop 
+                    autoplay>
+                </dotlottie-player>
+            </div>
+
+            <script 
+            src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" 
+            type="module">
+            </script>
+       
+
+        <div class="title-content">
+            <h1 class="h1 title-heading" data-reveal="top" data-reveal-delay="0.5s">
+                My <span> Canva Designs </span>
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+                Creative. Captivating. Impactful. <br>
+                Elevating designs with a sleek and modern touch.
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Designs Grid -->
+  <section class="designs-gallery">
+    <div class="design-grid">
+      <!-- 8 Design Cards -->
+      <div class="design-card" onclick="openFullImage('assets/images/design-1.png', 'Design 1 - Click to View Full Image')">
+        <img src="assets/images/design-1.png" alt="Design 1">
+        <div class="overlay-text">Design 1 <br> Click to View</div>
+      </div>
+
+      <div class="design-card" onclick="openFullImage('assets/images/design-2.png', 'Design 2 - Click to View Full Image')">
+        <img src="assets/images/design-2.png" alt="Design 2">
+        <div class="overlay-text">Design 2 <br> Click to View</div>
+      </div>
+
+      <div class="design-card" onclick="openFullImage('assets/images/design-3.png', 'Design 3 - Click to View Full Image')">
+        <img src="assets/images/design-3.png" alt="Design 3">
+        <div class="overlay-text">Design 3 <br> Click to View</div>
+      </div>
+
+      <div class="design-card" onclick="openFullImage('assets/images/design-4.png', 'Design 4 - Click to View Full Image')">
+        <img src="assets/images/design-4.png" alt="Design 4">
+        <div class="overlay-text">Design 4 <br> Click to View</div>
+      </div>
+
+      <div class="design-card" onclick="openFullImage('assets/images/design-5.png', 'Design 5 - Click to View Full Image')">
+        <img src="assets/images/design-5.png" alt="Design 5">
+        <div class="overlay-text">Design 5 <br> Click to View</div>
+      </div>
+
+      <div class="design-card design-6" onclick="openFullImage('assets/images/design-6.png', 'Design 6 - Click to View Full Image')">
+        <img src="assets/images/design-6.png" alt="Design 6">
+        <div class="overlay-text">Design 6 <br> Click to View</div>
+      </div>
+
+      <div class="design-card" onclick="openFullImage('assets/images/design-7.png', 'Design 7 - Click to View Full Image')">
+        <img src="assets/images/design-7.png" alt="Design 7">
+        <div class="overlay-text">Design 7 <br> Click to View</div>
+      </div>
+
+      <div class="design-card" onclick="openFullImage('assets/images/design-8.png', 'Design 8 - Click to View Full Image')">
+        <img src="assets/images/design-8.png" alt="Design 8">
+        <div class="overlay-text">Design 8 <br> Click to View</div>
+      </div>
+
+      <div class="design-card design-9" onclick="openFullImage('assets/images/design-9.png', 'Design 9 - Click to View Full Image')">
+        <img src="assets/images/design-9.png" alt="Design 9">
+        <div class="overlay-text">Design 9 <br> Click to View</div>
+      </div>
+
+      <div class="design-card design-10" onclick="openFullImage('assets/images/design-10.png', 'Design 10 - Click to View Full Image')">
+        <img src="assets/images/design-10.png" alt="Design 10">
+        <div class="overlay-text">Design 10 <br> Click to View</div>
+      </div>
+
+      <div class="design-card design-11" onclick="openFullImage('assets/images/design-11.png', 'Design 11 - Click to View Full Image')">
+        <img src="assets/images/design-11.png" alt="Design 11">
+        <div class="overlay-text">Design 11 <br> Click to View</div>
+      </div>
+
+      <div class="design-card design-12" onclick="openFullImage('assets/images/design-12.png', 'Design 12 - Click to View Full Image')">
+        <img src="assets/images/design-12.png" alt="Design 12">
+        <div class="overlay-text">Design 12 <br> Click to View</div>
+      </div>
+
+      <div class="design-card design-13" onclick="openFullImage('assets/images/design-13.png', 'Design 13 - Click to View Full Image')">
+        <img src="assets/images/design-13.png" alt="Design 13">
+        <div class="overlay-text">Design 13 <br> Click to View</div>
+      </div>
+
+      <div class="design-card design-14" onclick="openFullImage('assets/images/design-14.png', 'Design 14 - Click to View Full Image')">
+        <img src="assets/images/design-14.png" alt="Design 14">
+        <div class="overlay-text">Design 14 <br> Click to View</div>
+      </div>
+
+      <div class="design-card design-15" onclick="openFullImage('assets/images/design-15.png', 'Design 15 - Click to View Full Image')">
+        <img src="assets/images/design-15.png" alt="Design 15">
+        <div class="overlay-text">Design 15 <br> Click to View</div>
+      </div>
+
+      <div class="design-card design-16" onclick="openFullImage('assets/images/design-16.png', 'Design 16 - Click to View Full Image')">
+        <img src="assets/images/design-16.png" alt="Design 16">
+        <div class="overlay-text">Design 16 <br> Click to View</div>
+      </div>
+
+      <div class="design-card design-17" onclick="openFullImage('assets/images/design-17.png', 'Design 17 - Click to View Full Image')">
+        <img src="assets/images/design-17.png" alt="Design 17">
+        <div class="overlay-text">Design 17 <br> Click to View</div>
+      </div>
+
+    </div>
+
+    <!-- Full Image Overlay -->
+<div class="FullImageOverlay" id="FullImageOverlay">
+    <span class="close-FullImage" onclick="closeFullImage()">&times;</span>
+    <img id="FullImage" src="">
+</div>
+
+
+  <script>
+    function openFullImage(imageSrc) {
+    document.getElementById('FullImage').src = imageSrc;
+    document.getElementById('FullImageOverlay').style.display = "flex";
+}
+
+function closeFullImage() {
+    document.getElementById('FullImageOverlay').style.display = "none";
+}
+
+  </script>
+</div>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2025 Ayush Sarfare. All rights reserved. 
+       <a href="mailto:ayushsarfare@gmail.com">📭 ayushsarfare@gmail.com</a>
+
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.linkedin.com/in/ayushsarfare/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/AyushSarfare" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/ayushsarfare?igsh=MTBmZzk5OWNscHg2" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+ 
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

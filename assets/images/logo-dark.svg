@@ -1,0 +1,12 @@
+<svg width="1000" height="130" viewBox="0 0 1000 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="25%" style="stop-color:#FF6347; stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#FF7F50; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <text id="portfolioText" x="20" y="100" font-family="Orbitron, sans-serif" font-size="120" font-weight="bold" letter-spacing="3" fill="url(#gradient)">
+    Ayush | Porfolio
+  </text>
+</svg>
