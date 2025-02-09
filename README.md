@@ -1,16 +1,7 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/<AyushSarfare>/<AyushCreates | Porfolio>)
-  ![GitHub stars](https://img.shields.io/github/stars/<AyushSarfare>/<AyushCreates | Porfolio>?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/<AyushSarfare>/<AyushCreates | Porfolio>?style=social)
-  
-  <br />
-  
-  <h2 align="center">🚀 <AyushCreates | Porfolio> - Modern Portfolio Website</h2>
+<h2 align="center">My Personal Porfolio 🧑🏻‍💻</h2>
 
-  A sleek, responsive, and fully interactive portfolio website built with **HTML, CSS, and JavaScript** to showcase your skills, projects, and achievements.
-
-  <a href="https://<AyushSarfare>.github.io/<AyushCreates | Porfolio>/"><strong>🔗 Live Demo</strong></a>
+  A fully responsive and interactive portfolio website built using HTML, CSS, JavaScript, and Lottie animations. Designed for a seamless user experience with smooth animations, engaging visuals, and a minimalist aesthetic.
+  <h2>See It in Action :</h2> <a href="https://AyushSarfare.github.io/AyushCreates-Portfolio/"></a>
 
 </div>
 
@@ -34,14 +25,10 @@
 
 ---
 
-## 🚀 Getting Started  
+## 📞 Connect with Me  
 
-### Prerequisites  
+If you have any questions, feedback, or collaboration ideas, feel free to reach out!  
 
-Make sure you have **Git** installed.  
-
-### Clone the Repository  
-
-```bash
-git clone https://github.com/<AyushSarfare>/<AyushCreates | Porfolio>.git
-cd <AyushCreates | Porfolio>
+-  🌐 **Portfolio:**  [Ayush | Porfolio](https://yourportfolio.com)  
+-  📧 **Email:**   [ayushsarfare2811@gmail.com](mailto:ayushsarfare2811@gmail.com)  
+-  💼 **LinkedIn:**  [Ayush Sarfare](https://linkedin.com/in/ayushsarfare)  
