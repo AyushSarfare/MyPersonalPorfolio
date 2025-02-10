@@ -1,7 +1,7 @@
 <h2 align="center">My Personal Porfolio 🧑🏻‍💻</h2>
 
   A fully responsive and interactive portfolio website built using HTML, CSS, JavaScript, and Lottie animations. Designed for a seamless user experience with smooth animations, engaging visuals, and a minimalist aesthetic.
-  <h2>See It in Action :</h2> <a href="https://AyushSarfare.github.io/AyushCreates-Portfolio/"></a>
+  <h2>See It in Action :</h2> <a href="https://ayush-creates.netlify.app">Ayush Creates</a>
 
 </div>
 
